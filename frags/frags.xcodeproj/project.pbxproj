@@ -19,6 +19,7 @@
 		CE7C3B912810890A00B702C1 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C3B902810890A00B702C1 /* RegistrationViewController.swift */; };
 		CE7C3B942810896500B702C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C3B932810896500B702C1 /* LoginViewController.swift */; };
 		CEC56E1F28293ABB00026362 /* RegistrationScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC56E1E28293ABB00026362 /* RegistrationScreenView.xib */; };
+		CEC56E212829951900026362 /* IdentityProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC56E202829951900026362 /* IdentityProfileManager.swift */; };
 		CED16C6C2819B09F00BA6D19 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED16C6B2819B09F00BA6D19 /* HomeView.xib */; };
 		CED16C6E2819B23C00BA6D19 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED16C6D2819B23C00BA6D19 /* HomeViewController.swift */; };
 		CED16C722819DFA600BA6D19 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED16C712819DFA600BA6D19 /* Alerts.swift */; };
@@ -39,6 +40,7 @@
 		CE7C3B902810890A00B702C1 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		CE7C3B932810896500B702C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEC56E1E28293ABB00026362 /* RegistrationScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationScreenView.xib; sourceTree = "<group>"; };
+		CEC56E202829951900026362 /* IdentityProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityProfileManager.swift; sourceTree = "<group>"; };
 		CED16C6B2819B09F00BA6D19 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		CED16C6D2819B23C00BA6D19 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CED16C712819DFA600BA6D19 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7C3B8428105AE600B702C1 /* IdentityProfile.swift */,
+				CEC56E202829951900026362 /* IdentityProfileManager.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7C3B8528105AE600B702C1 /* IdentityProfile.swift in Sources */,
+				CEC56E212829951900026362 /* IdentityProfileManager.swift in Sources */,
 				CE7C3B6F2810597100B702C1 /* ViewController.swift in Sources */,
 				CE7C3B6B2810597100B702C1 /* AppDelegate.swift in Sources */,
 				CE7C3B942810896500B702C1 /* LoginViewController.swift in Sources */,
